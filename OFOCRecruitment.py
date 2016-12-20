@@ -12,7 +12,7 @@ from random import randint
 #You need to install both Selenium and the appropriate drivers
 #Selenium  & Firefox (therefore geckodriver)
 USERNAME = "OutOfFocusRecruiter"
-PASSWORD = "recruiter62"
+PASSWORD = "INSERTHERE"
 def findElementsAndBegin():
     keywordsToSearchFor = ['LF', 'SP', 'pilot', 'Pilot']
     browser = webdriver.Firefox()

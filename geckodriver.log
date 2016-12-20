@@ -969,3 +969,21 @@ JavaScript error: chrome://global/content/process-content.js, line 51: NS_ERROR_
 (firefox:11417): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
 
 (firefox:11417): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+1482237271629	geckodriver	INFO	Listening on 127.0.0.1:44934
+1482237272602	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.KTJlOIzvDRD7
+1482237272605	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1482237272646	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34766
+1482237273954	Marionette	INFO	Listening on port 34766
+
+(firefox:2354): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:2354): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:2354): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:2354): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:2354): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:2354): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+JavaScript error: https://s.zkcdn.net/ados.js?cb=64ac9d8, line 62: TypeError: doc is null
