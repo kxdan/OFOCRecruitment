@@ -5,8 +5,10 @@ import copy
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
+from datetime import datetime, timedelta
 from selenium.webdriver.common.keys import Keys
 import time
+import re
 from threading import Thread
 from random import randint
 #You need to install both Selenium and the appropriate drivers
@@ -49,6 +51,7 @@ def loginFunction(browser):
 def replyToLinks(linksToProcess,browser):
     for element in linksToProcess:
         browser.get(element)
+        #changed to not
         if not havePostedBefore(browser):
             print('Posting on: ' + element)
             textElement = browser.find_element_by_name('text')
@@ -65,11 +68,12 @@ def replyToLinks(linksToProcess,browser):
             whilst we're a heavily focused PVP corp we do take things quite light hearted and win with a smile,
             or lose with a laugh. We're one of the largest wormhole corps in eve but obviously wormholes being what they are we focus primarily on small gang warfare.
             If you're interested check out the link below or PM one of us in-game https://www.reddit.com/r/evejobs/comments/4vps5m/odins_ofoc_wh_pvp_corp/"""}
-
             stringToSend = stringDict[randint(1,len(stringDict))]
             textElement.send_keys(stringToSend + Keys.RETURN)
             saveButton = browser.find_element_by_class_name('save')
             saveButton.click()
+            if not didPostGoThrough(browser):
+                saveButton.click()
             delayInt =  randint(3,11)
             print('Posted. Delaying for ' + str(delayInt) + ' seconds')
             time.sleep(delayInt)
@@ -83,5 +87,21 @@ def havePostedBefore(browser):
         if USERNAME in poster.text:
             return True
     return False
+
+def didPostGoThrough(browser):
+    errorElement = []
+    errorElement = browser.find_elements_by_class_name("error.RATELIMIT.field-ratelimit")
+    if len(errorElement) > 0:
+        errorText = errorElement[0].text
+        numberOfMinutes = re.findall(r'\d+', errorText)
+        if len(numberOfMinutes) > 0:
+            minutesInteger = int(numberOfMinutes[0])
+            #Convert minutes to seconds and add half minute threshold
+            secondsInteger = (minutesInteger *60) +30
+            print("Caught by reddit, waiting " + str(secondsInteger) + " seconds before continuing")
+            print("Current Time: " + str(datetime.now()) + " continuing at: "+ str(datetime.now()+ timedelta(seconds = secondsInteger)))
+            time.sleep(secondsInteger)
+            return False
+    return True
 
 findElementsAndBegin()
