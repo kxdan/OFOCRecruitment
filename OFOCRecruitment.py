@@ -14,26 +14,34 @@ from random import randint
 #You need to install both Selenium and the appropriate drivers
 #Selenium  & Firefox (therefore geckodriver)
 USERNAME = "OutOfFocusRecruiter"
-PASSWORD = "INSERTHERE"
+PASSWORD = "recruiter62"
+NUMBEROFPAGESTOPROCESS = 3
 def findElementsAndBegin():
     keywordsToSearchFor = ['LF', 'SP', 'pilot', 'Pilot']
     browser = webdriver.Firefox()
-    browser.get('http://www.reddit.com/r/evejobs')
-    print('Getting homepage posts')
-    time.sleep(1)
     allElements = []
-    allElements = browser.find_elements_by_class_name("title.may-blank")
     elementsToProcess = []
-    for element in allElements:
-        tempStr = element.text
-        if any(ext in tempStr for ext in keywordsToSearchFor):
-            elementsToProcess.append(element.get_attribute("href"))
+    currentPageNumber = 0
+    browser.get('http://www.reddit.com/r/evejobs')
+    print('Getting homepage posts, page number ' + str(currentPageNumber))
+    time.sleep(1)
+    for currentPageNumber in range (0, NUMBEROFPAGESTOPROCESS):
+        allElements = browser.find_elements_by_class_name("title.may-blank")
+        # go through multiple pages searching for stuff
+        for element in allElements:
+            tempStr = element.text
+            if any(ext in tempStr for ext in keywordsToSearchFor):
+                elementsToProcess.append(element.get_attribute("href"))
+        nextButton = browser.find_element_by_class_name("next-button")
+        nextButton.click()
+        time.sleep(3)
     if len(elementsToProcess) > 0:
         print('Beginning Process, ' + str(len(elementsToProcess)) + " elements found")
         loginFunction(browser)
-        replyToLinks(elementsToProcess,browser)
+        replyToLinks(elementsToProcess, browser)
         browser.close()
         print('Finished.')
+
 
 def loginFunction(browser):
     loginElements = []
