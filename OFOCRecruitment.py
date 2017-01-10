@@ -17,7 +17,7 @@ USERNAME = "OutOfFocusRecruiter"
 PASSWORD = "recruiter62"
 NUMBEROFPAGESTOPROCESS = 3
 def findElementsAndBegin():
-    keywordsToSearchFor = ['LF', 'SP', 'pilot', 'Pilot']
+    keywordsToSearchFor = ['LF', 'SP', 'pilot', 'Pilot', 'LFC']
     browser = webdriver.Firefox()
     allElements = []
     elementsToProcess = []
@@ -30,7 +30,7 @@ def findElementsAndBegin():
         # go through multiple pages searching for stuff
         for element in allElements:
             tempStr = element.text
-            if any(ext in tempStr for ext in keywordsToSearchFor):
+            if any(ext in tempStr for ext in keywordsToSearchFor) and ("pilots" not in tempStr):
                 elementsToProcess.append(element.get_attribute("href"))
         nextButton = browser.find_element_by_class_name("next-button")
         nextButton.click()
