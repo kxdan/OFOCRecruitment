@@ -112,4 +112,22 @@ def didPostGoThrough(browser):
             return False
     return True
 
+
+def bumpEveForum():
+    #https: // forums.eveonline.com / default.aspx?g = posts & m = 6583336  # post6583336
+    browser = webdriver.Firefox()
+    #nav pull-right
+    browser.get('https://forums.eveonline.com/default.aspx?g=posts&m=6583336#post6583336')
+    loginElements = []
+    loginElements = browser.find_elements_by_class_name("nav.pull-right")
+    #it's looking at the entire thing rather than just the section that you want you need to pull the child elemenets out of it
+    for element in loginElements:
+        if 'Login' in element.text:
+            element.find_element_by_tag_name("a").click()
+            #element.click()
+            # Trigger Eve login
+            #browser.findElement(By.xpath("//a[text()='Login']")).click()
+
+
 findElementsAndBegin()
+#bumpEveForum()
