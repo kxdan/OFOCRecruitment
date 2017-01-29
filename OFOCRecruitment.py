@@ -15,9 +15,12 @@ from random import randint
 #Selenium  & Firefox (therefore geckodriver)
 USERNAME = "OutOfFocusRecruiter"
 PASSWORD = "recruiter62"
+USERNAMEEVE = "OutOfFocusRecruiter"
+PASSWORDEVE = "Recruiter62"
 NUMBEROFPAGESTOPROCESS = 3
+keywordsToSearchFor = ['LF', 'SP', 'pilot', 'Pilot', 'LFC', "toon", 'looking for corp']
+keywordsToAvoid = ['pilots' , 'recruiting']
 def findElementsAndBegin():
-    keywordsToSearchFor = ['LF', 'SP', 'pilot', 'Pilot', 'LFC']
     browser = webdriver.Firefox()
     allElements = []
     elementsToProcess = []
@@ -30,7 +33,7 @@ def findElementsAndBegin():
         # go through multiple pages searching for stuff
         for element in allElements:
             tempStr = element.text
-            if any(ext in tempStr for ext in keywordsToSearchFor) and ("pilots" not in tempStr):
+            if checkSearchFor(tempStr) and checkAvoidance(tempStr):
                 elementsToProcess.append(element.get_attribute("href"))
         nextButton = browser.find_element_by_class_name("next-button")
         nextButton.click()
@@ -41,7 +44,18 @@ def findElementsAndBegin():
         replyToLinks(elementsToProcess, browser)
         browser.close()
         print('Finished.')
+#Check none of the keywords are present that must be avoided
+def checkAvoidance(tempStr):
+    for element in keywordsToAvoid:
+        if element.lower() in tempStr.lower():
+            return False #Conflict Exists, do not post
+    return True #No Conflict Found
 
+#Check element has keywords we want
+def checkSearchFor(tempStr):
+    if any(ext in tempStr for ext in keywordsToSearchFor):
+        return True #Keyword we want to find exists
+    return False #No Keyword Found
 
 def loginFunction(browser):
     loginElements = []
@@ -87,7 +101,7 @@ def replyToLinks(linksToProcess,browser):
             time.sleep(delayInt)
         else:
             print("Already posted on this one, skipping")
-
+#Checks the username has not been posting already on this thread
 def havePostedBefore(browser):
     postersOnThread = []
     postersOnThread = browser.find_elements_by_class_name("author.may-blank")
@@ -96,6 +110,7 @@ def havePostedBefore(browser):
             return True
     return False
 
+#Deals with reddit "you are doing this too much, by delaying and posting after this time has expired"
 def didPostGoThrough(browser):
     errorElement = []
     errorElement = browser.find_elements_by_class_name("error.RATELIMIT.field-ratelimit")
@@ -112,7 +127,10 @@ def didPostGoThrough(browser):
             return False
     return True
 
+#Will visit the eve online forum website and bump the site
 
+#Improvements, find the last time you posts
+#Start by finding how many pages there are. Once you know the number of pages, go to the last page, and look if your name is there, if it is look at the date it was last submitted, if its greater than 1 in month or day from current datetime then post
 def bumpEveForum():
     #https: // forums.eveonline.com / default.aspx?g = posts & m = 6583336  # post6583336
     browser = webdriver.Firefox()
@@ -124,10 +142,26 @@ def bumpEveForum():
     for element in loginElements:
         if 'Login' in element.text:
             element.find_element_by_tag_name("a").click()
+            time.sleep(2)
+            usernameBoxEve = browser.find_element_by_id("UserName")
+            passwordBoxEve = browser.find_element_by_id("Password")
+
+            usernameBoxEve.send_keys(USERNAMEEVE)
+            passwordBoxEve.send_keys(PASSWORDEVE)
+
+            loginButtonEve = browser.find_element_by_id("submitButton")
+            loginButtonEve.click()
+            time.sleep(2)
+            replyButtonEve =  browser.find_element_by_id("forum_ctl00_PostReplyLink1")
+            replyButtonEve.click()
+            time.sleep(2)
+            replyBoxEve =  browser.find_element_by_id("forum_ctl00_YafTextEditor")
+            replyBoxEve.send_keys("Bump")
+
+            postReplyEve = browser.find_element_by_id("forum_ctl00_PostReply")
+            postReplyEve.click()
             #element.click()
             # Trigger Eve login
             #browser.findElement(By.xpath("//a[text()='Login']")).click()
-
-
 findElementsAndBegin()
-#bumpEveForum()
+bumpEveForum()

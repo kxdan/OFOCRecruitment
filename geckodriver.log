@@ -2465,3 +2465,504 @@ ATTENTION: default value of option force_s3tc_enable overridden by environment.
 
 (firefox:24182): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
 ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1485713261330	geckodriver	INFO	Listening on 127.0.0.1:53368
+1485713262336	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.NKranKOIbuvG
+1485713262338	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1485713262345	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37793
+1485713262962	Marionette	INFO	Listening on port 37793
+
+(firefox:30496): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:30496): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:30496): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:30496): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:30496): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:30496): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:30496): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+[Child 30563] WARNING: pipe error: Broken pipe: file /build/firefox-RuETGa/firefox-51.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 687
+[Child 30563] WARNING: pipe error: Broken pipe: file /build/firefox-RuETGa/firefox-51.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 687
+[Child 30563] WARNING: pipe error: Broken pipe: file /build/firefox-RuETGa/firefox-51.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 687
+[Child 30563] WARNING: pipe error: Broken pipe: file /build/firefox-RuETGa/firefox-51.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 687
+[Child 30563] WARNING: pipe error: Broken pipe: file /build/firefox-RuETGa/firefox-51.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 687
+[Child 30563] WARNING: pipe error: Broken pipe: file /build/firefox-RuETGa/firefox-51.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 687
+[Child 30563] WARNING: pipe error: Broken pipe: file /build/firefox-RuETGa/firefox-51.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 687
+[Child 30563] WARNING: pipe error: Broken pipe: file /build/firefox-RuETGa/firefox-51.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 687
+[Child 30563] WARNING: pipe error: Broken pipe: file /build/firefox-RuETGa/firefox-51.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 687
+[Child 30563] WARNING: pipe error: Broken pipe: file /build/firefox-RuETGa/firefox-51.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 687
+[Child 30563] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-RuETGa/firefox-51.0.1+build2/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+[Child 30563] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-RuETGa/firefox-51.0.1+build2/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+[Child 30563] ###!!! ABORT: Aborting on channel error.: file /build/firefox-RuETGa/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 30563] ###!!! ABORT: Aborting on channel error.: file /build/firefox-RuETGa/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+1485713497366	geckodriver	INFO	Listening on 127.0.0.1:50928
+1485713498368	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.Q0lVPlkJv2qt
+1485713498368	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1485713498371	geckodriver::marionette	INFO	Connecting to Marionette on localhost:44241
+1485713499079	Marionette	INFO	Listening on port 44241
+
+(firefox:30778): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:30778): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:30778): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:30778): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:30778): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:30778): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:30778): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+1485713545044	geckodriver	INFO	Listening on 127.0.0.1:42226
+1485713546045	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.csJEvPZuoj30
+1485713546046	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1485713546048	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38554
+1485713546759	Marionette	INFO	Listening on port 38554
+
+(firefox:30922): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:30922): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:30922): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:30922): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:30922): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:30922): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:30922): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+1485713596347	geckodriver	INFO	Listening on 127.0.0.1:41197
+1485713597350	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.q99Fpcj1GDcf
+1485713597351	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1485713597353	geckodriver::marionette	INFO	Connecting to Marionette on localhost:43400
+1485713598004	Marionette	INFO	Listening on port 43400
+
+(firefox:31071): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:31071): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:31071): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:31071): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:31071): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:31071): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:31071): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+1485713973601	geckodriver	INFO	Listening on 127.0.0.1:57390
+1485713974602	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.gsQYPolryMR0
+1485713974603	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1485713974606	geckodriver::marionette	INFO	Connecting to Marionette on localhost:46070
+1485713975311	Marionette	INFO	Listening on port 46070
+[Child 31861] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-RuETGa/firefox-51.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 323
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x500001,name=PCrashReporter::Msg_AnnotateCrashReport) Channel error: cannot send/recv
+
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=1.85834) 
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A00EA,name=PContent::Msg_GraphicsError) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1485714004494	geckodriver	INFO	Listening on 127.0.0.1:42612
+1485714005493	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.P7llz1UKjE2j
+1485714005493	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1485714005496	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37610
+1485714006174	Marionette	INFO	Listening on port 37610
+1485714065793	geckodriver	INFO	Listening on 127.0.0.1:33698
+1485714066796	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.ASsK7z3P5Mem
+1485714066796	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1485714066799	geckodriver::marionette	INFO	Connecting to Marionette on localhost:42488
+1485714067829	Marionette	INFO	Listening on port 42488
+
+(firefox:32080): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32080): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32080): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32080): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32080): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32080): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32080): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+1485714143428	geckodriver	INFO	Listening on 127.0.0.1:39915
+1485714143433	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.P9vW0rDTom6E
+1485714143434	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1485714143439	geckodriver::marionette	INFO	Connecting to Marionette on localhost:42125
+1485714144119	Marionette	INFO	Listening on port 42125
+
+(firefox:32238): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32238): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32238): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32238): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32238): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32238): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+JavaScript warning: https://cdn.adsafeprotected.com/sca.17.1.10.js, line 1: SyntaxError: for-in loop head declarations may not have initializers
+
+(firefox:32238): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f0e467879c0' of type 'MaiAtkType139'
+1485714391712	geckodriver	INFO	Listening on 127.0.0.1:45367
+1485714392714	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.cbi5vfjbwvW8
+1485714392714	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1485714392717	geckodriver::marionette	INFO	Connecting to Marionette on localhost:35285
+1485714393427	Marionette	INFO	Listening on port 35285
+
+(firefox:32484): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32484): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32484): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32484): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32484): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32484): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32484): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 75: TypeError: this._recipeManager is null
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 75: TypeError: this._recipeManager is null
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 75: TypeError: this._recipeManager is null
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+[Child 32546] ###!!! ABORT: Aborting on channel error.: file /build/firefox-RuETGa/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 32546] ###!!! ABORT: Aborting on channel error.: file /build/firefox-RuETGa/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+1485714648517	geckodriver	INFO	Listening on 127.0.0.1:42117
+1485714648525	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.kl9txDoTLB4p
+1485714648525	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1485714648530	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37234
+1485714649237	Marionette	INFO	Listening on port 37234
+
+(firefox:32729): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32729): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32729): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32729): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32729): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32729): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32729): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+[Child 32794] ###!!! ABORT: Aborting on channel error.: file /build/firefox-RuETGa/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 32794] ###!!! ABORT: Aborting on channel error.: file /build/firefox-RuETGa/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+1485714702634	geckodriver	INFO	Listening on 127.0.0.1:47285
+1485714703632	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.Yc1tweI0Btvm
+1485714703633	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1485714703636	geckodriver::marionette	INFO	Connecting to Marionette on localhost:46300
+1485714704309	Marionette	INFO	Listening on port 46300
+
+(firefox:32887): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32887): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32887): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32887): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32887): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32887): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:32887): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+
+(firefox:32887): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fe1e67631f0' of type 'MaiAtkType139'
+1485714728836	geckodriver	INFO	Listening on 127.0.0.1:33343
+1485714729831	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.98YWn7urBBbP
+1485714729832	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1485714729838	geckodriver::marionette	INFO	Connecting to Marionette on localhost:35953
+1485714730516	Marionette	INFO	Listening on port 35953
+
+(firefox:33031): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33031): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33031): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33031): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33031): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33031): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33031): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2E0045,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A00C3,name=PContent::Msg_ConsoleMessage) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 32887] WARNING: pipe error (53): Connection reset by peer: file /build/firefox-RuETGa/firefox-51.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 323
+1485714883984	geckodriver	INFO	Listening on 127.0.0.1:46539
+1485714884986	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.j9F9G7IySsbb
+1485714884987	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1485714884989	geckodriver::marionette	INFO	Connecting to Marionette on localhost:40053
+1485714885635	Marionette	INFO	Listening on port 40053
+
+(firefox:33242): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33242): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33242): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33242): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33242): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33242): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33242): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1485714902718	geckodriver	INFO	Listening on 127.0.0.1:53255
+1485714903719	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.TAoYmZEV0UEn
+1485714903720	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1485714903723	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37899
+1485714904583	Marionette	INFO	Listening on port 37899
+1485714905984	geckodriver	INFO	Listening on 127.0.0.1:56107
+1485714906971	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.zihLNqwhSNB4
+1485714906971	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1485714906989	geckodriver::marionette	INFO	Connecting to Marionette on localhost:44110
+1485714907810	Marionette	INFO	Listening on port 44110
+
+(firefox:33381): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33381): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33381): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33381): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33381): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33381): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33381): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: this.browserForTab is undefined
+Full stack: hasRemotenessChange@chrome://marionette/content/browser.js:233:9
+executeWhenReady@chrome://marionette/content/browser.js:264:9
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:218:5
+send/<@chrome://marionette/content/proxy.js:138:7
+send@chrome://marionette/content/proxy.js:105:12
+ownPriorityGetterTrap.get/<@chrome://marionette/content/proxy.js:24:25
+GeckoDriver.prototype.findElement@chrome://marionette/content/driver.js:1688:31
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:388:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:13
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:117:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:88:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:483:11
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Spinner.prototype.observe@resource://gre/modules/AsyncShutdown.jsm:551:9
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: this.browserForTab is undefined
+Full stack: hasRemotenessChange@chrome://marionette/content/browser.js:233:9
+executeWhenReady@chrome://marionette/content/browser.js:264:9
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:218:5
+send/<@chrome://marionette/content/proxy.js:138:7
+send@chrome://marionette/content/proxy.js:105:12
+ownPriorityGetterTrap.get/<@chrome://marionette/content/proxy.js:24:25
+GeckoDriver.prototype.findElement@chrome://marionette/content/driver.js:1688:31
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:388:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:13
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:117:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:88:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:483:11
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Spinner.prototype.observe@resource://gre/modules/AsyncShutdown.jsm:551:9
+
+*************************
+*************************
+A coding exception was thrown in a Promise rejection callback.
+See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+
+Full message: TypeError: this.browserForTab is undefined
+Full stack: hasRemotenessChange@chrome://marionette/content/browser.js:233:9
+executeWhenReady@chrome://marionette/content/browser.js:264:9
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:218:5
+send/<@chrome://marionette/content/proxy.js:138:7
+send@chrome://marionette/content/proxy.js:105:12
+ownPriorityGetterTrap.get/<@chrome://marionette/content/proxy.js:24:25
+GeckoDriver.prototype.findElement@chrome://marionette/content/driver.js:1688:31
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:388:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:13
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:117:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:88:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:483:11
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Spinner.prototype.observe@resource://gre/modules/AsyncShutdown.jsm:551:9
+
+*************************
+Marionette threw an error: TypeError: this.browserForTab is undefined
+hasRemotenessChange@chrome://marionette/content/browser.js:233:9
+executeWhenReady@chrome://marionette/content/browser.js:264:9
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:218:5
+send/<@chrome://marionette/content/proxy.js:138:7
+send@chrome://marionette/content/proxy.js:105:12
+ownPriorityGetterTrap.get/<@chrome://marionette/content/proxy.js:24:25
+GeckoDriver.prototype.findElement@chrome://marionette/content/driver.js:1688:31
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:388:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:13
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:117:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:88:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:483:11
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Spinner.prototype.observe@resource://gre/modules/AsyncShutdown.jsm:551:9
+
+JavaScript error: chrome://marionette/content/listener.js, line 870: TypeError: can't access dead object
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x500001,name=PCrashReporter::Msg_AnnotateCrashReport) Channel error: cannot send/recv
+
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=3.37444) 
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A00EA,name=PContent::Msg_GraphicsError) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1485714914704	geckodriver	INFO	Listening on 127.0.0.1:54702
+1485714914710	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.ZiFdvYinzwTr
+1485714914710	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1485714914713	geckodriver::marionette	INFO	Connecting to Marionette on localhost:32905
+1485714915374	Marionette	INFO	Listening on port 32905
+
+(firefox:33643): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33643): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33643): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33643): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33643): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33643): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33643): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+
+(firefox:33643): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'load_complete' is invalid for instance '0x7f059ad941a0' of type 'MaiAtkType13b'
+
+(firefox:33643): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f059b064420' of type 'MaiAtkType139'
+
+(firefox:33643): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f05a8f06650' of type 'MaiAtkType139'
+1485715262013	geckodriver	INFO	Listening on 127.0.0.1:44229
+1485715263015	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.Peb1FWnVruHM
+1485715263015	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1485715263019	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37910
+1485715263713	Marionette	INFO	Listening on port 37910
+
+(firefox:33834): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33834): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33834): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33834): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33834): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33834): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:33834): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+
+(firefox:33834): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'load_complete' is invalid for instance '0x7fe73c053740' of type 'MaiAtkType13b'
+
+(firefox:33834): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fe7433803d0' of type 'MaiAtkType139'
