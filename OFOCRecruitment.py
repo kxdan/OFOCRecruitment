@@ -18,32 +18,49 @@ PASSWORD = "recruiter62"
 USERNAMEEVE = "OutOfFocusRecruiter"
 PASSWORDEVE = "Recruiter62"
 NUMBEROFPAGESTOPROCESS = 3
-keywordsToSearchFor = ['LF', 'SP', 'pilot', 'Pilot', 'LFC', "toon", 'looking for corp']
+keywordsToSearchFor = ['LF', 'SP', 'pilot', 'Pilot', 'LFC', "toon", 'looking for corp', 'looking for wormhole corp', 'Looking for Wormhole corp' , 'Player']
 keywordsToAvoid = ['pilots' , 'recruiting']
+#Loads the reddit evejobs page, loads all the elements on the respective page and cycles through pages
+#For each element on the page, if the flair is either "looking for corp" or the text is something
+#odo with a corp, it'll get added, and posted on later on , posts with avoidance keywords are avoided, posts with
+#keywords to search for are added, avoidance takes priority
+
 def findElementsAndBegin():
     browser = webdriver.Firefox()
     allElements = []
     elementsToProcess = []
     currentPageNumber = 0
     browser.get('http://www.reddit.com/r/evejobs')
-    print('Getting homepage posts, page number ' + str(currentPageNumber))
     time.sleep(1)
+    #Cycle through all the pages finding posts
     for currentPageNumber in range (0, NUMBEROFPAGESTOPROCESS):
+        print('Getting homepage posts, page number ' + str(currentPageNumber))
+        #Lists containing elements on the page, and flairs on the page, these lists are parallel
         allElements = browser.find_elements_by_class_name("title.may-blank")
+        allFlairElements = browser.find_elements_by_class_name("linkflairlabel")
         # go through multiple pages searching for stuff
+        flairElement = 0
+        #Go through elements list searching for keywords
         for element in allElements:
             tempStr = element.text
-            if checkSearchFor(tempStr) and checkAvoidance(tempStr):
+            flairText = allFlairElements[flairElement].text
+            #Check if either keywords are present or flair is looking for corp
+            if (checkSearchFor(tempStr) and checkAvoidance(tempStr)) or ("Looking for Corp" == flairText):
                 elementsToProcess.append(element.get_attribute("href"))
+
+            flairElement += 1
+        #Travel to next page
         nextButton = browser.find_element_by_class_name("next-button")
         nextButton.click()
         time.sleep(3)
+    #Begins posting process if elements exist
     if len(elementsToProcess) > 0:
         print('Beginning Process, ' + str(len(elementsToProcess)) + " elements found")
         loginFunction(browser)
         replyToLinks(elementsToProcess, browser)
         browser.close()
         print('Finished.')
+
 #Check none of the keywords are present that must be avoided
 def checkAvoidance(tempStr):
     for element in keywordsToAvoid:
@@ -56,7 +73,7 @@ def checkSearchFor(tempStr):
     if any(ext in tempStr for ext in keywordsToSearchFor):
         return True #Keyword we want to find exists
     return False #No Keyword Found
-
+#Logs into the reddit page or returns already logged in
 def loginFunction(browser):
     loginElements = []
     loginElements = browser.find_elements_by_class_name("login-required")
@@ -69,7 +86,7 @@ def loginFunction(browser):
         time.sleep(1)
     else:
         print('Already logged in')
-
+#Replies to links passed to it, permitting these links have not been previously posted on
 def replyToLinks(linksToProcess,browser):
     for element in linksToProcess:
         browser.get(element)
