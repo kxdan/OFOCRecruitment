@@ -27,7 +27,7 @@ keywordsToAvoid = ['pilots' , 'recruiting']
 
 def findElementsAndBegin():
     browser = webdriver.Firefox()
-    allElements = []
+
     elementsToProcess = []
     currentPageNumber = 0
     browser.get('http://www.reddit.com/r/evejobs')
@@ -36,14 +36,28 @@ def findElementsAndBegin():
     for currentPageNumber in range (0, NUMBEROFPAGESTOPROCESS):
         print('Getting homepage posts, page number ' + str(currentPageNumber))
         #Lists containing elements on the page, and flairs on the page, these lists are parallel
-        allElements = browser.find_elements_by_class_name("title.may-blank")
-        allFlairElements = browser.find_elements_by_class_name("linkflairlabel")
+
+        #NEED TO FIX BUG WHERE X HAS NO FLAIR - get the larger div, then title from that, then flair associated with it, if no flair set to blank
+        #FIXED, cycle through all Div elements, get title, and set title as flair if flair cannot be found, throws exception if no flair found
+        divelements =  browser.find_elements_by_class_name("entry.unvoted")
+        allElements = []
+        allFlairElements = []
+        for element in divelements:
+            allElements.append(element.find_element_by_class_name("title.may-blank"))
+            try:
+                allFlairElements.append(element.find_element_by_class_name("linkflairlabel"))
+            except:
+                tempElement = element.find_element_by_class_name("title.may-blank")
+                allFlairElements.append(tempElement)
+                pass
         # go through multiple pages searching for stuff
         flairElement = 0
         #Go through elements list searching for keywords
         for element in allElements:
             tempStr = element.text
-            flairText = allFlairElements[flairElement].text
+            if flairElement < len(allFlairElements):
+                flairText = allFlairElements[flairElement].text
+
             #Check if either keywords are present or flair is looking for corp
             if (checkSearchFor(tempStr) and checkAvoidance(tempStr)) or ("Looking for Corp" == flairText):
                 elementsToProcess.append(element.get_attribute("href"))
