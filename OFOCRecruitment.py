@@ -2,6 +2,7 @@ import urllib3
 from bs4 import BeautifulSoup
 import requests
 import copy
+from secrets import *
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
@@ -13,10 +14,10 @@ from threading import Thread
 from random import randint
 #You need to install both Selenium and the appropriate drivers
 #Selenium  & Firefox (therefore geckodriver)
-USERNAME = "OutOfFocusRecruiter"
-PASSWORD = "recruiter62"
-USERNAMEEVE = "OutOfFocusRecruiter"
-PASSWORDEVE = "Recruiter62"
+USERNAME = USERNAME
+PASSWORD = PASSWORD
+USERNAMEEVE = USERNAMEEVE
+PASSWORDEVE = PASSWORDEVE
 NUMBEROFPAGESTOPROCESS = 3
 keywordsToSearchFor = ['LF', 'SP', 'pilot', 'Pilot', 'LFC', "toon", 'looking for corp', 'looking for wormhole corp', 'Looking for Wormhole corp' , 'Player']
 keywordsToAvoid = ['pilots' , 'recruiting']
