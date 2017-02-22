@@ -195,5 +195,6 @@ def bumpEveForum():
             #element.click()
             # Trigger Eve login
             #browser.findElement(By.xpath("//a[text()='Login']")).click()
+    browser.close()
 findElementsAndBegin()
 bumpEveForum()

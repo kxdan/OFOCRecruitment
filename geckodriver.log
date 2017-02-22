@@ -4714,3 +4714,10 @@ JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_
 ATTENTION: default value of option force_s3tc_enable overridden by environment.
 
 (firefox:3141): GLib-GObject-WARNING **: /build/glib2.0-7IO_Yw/glib2.0-2.48.1/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f394d0e96f0' of type 'MaiAtkType139'
+1487785095670	geckodriver	INFO	Listening on 127.0.0.1:39356
+1487785096676	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.hvpSBDFxd2Ir
+1487785096677	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1487785096685	geckodriver::marionette	INFO	Connecting to Marionette on localhost:42542
+1487785097234	Marionette	INFO	Listening on port 42542
+[Child 3563] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 3563] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
